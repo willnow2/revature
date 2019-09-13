@@ -1,0 +1,55 @@
+When defining a table you cannot define an aggregate value of the column.
+ACID stands for Atomicity, Consistency, Isolation, Durability.
+The UNIQUE constraint requires that values must be unique in the column.
+In SQL, NULL values represent the lack of a value for a column.
+Referential integrity stipulates foreign keys must always reference a valid primary key.
+The CHECK constraint is used to require any values placed in a column satisfy a logical expression.
+The difference between WHERE and HAVING is WHERE filters data prior to aggregation, HAVING filters data after aggregation.
+The ON DELETE clause is used to specify behavior to take when a referenced row is deleted.
+A foreign key is a constraint which defines that a column references a primary key in another table or row.
+Denormalization is the process of adding redundancy to a database.
+MAX(), SUM(), and COUNT() are examples of aggregate functions. Aggregate functions work on a whole set of data to generate a value based on the whole set.
+UPPER(), ABS(), CONCAT() are examples of scalar functions. Scalar functions take in some input and return a single value.
+Insert is a part of the DML sublanguage. Insert is used to add data to the database or manipulate new data into the database.
+A unique value and NOT NULL are required of a primary key.
+LEFT JOIN will return all records from the first table despite any condition specified.
+The AS keyword is used to specify an alias.
+AVG() is an example of an aggregate function.
+DDL statements include commands like CREATE, DROP, and ALTER.
+The DROP command is used to remove a table from memory.
+DML Statements include commands like INSERT, UPDATE, and DELETE.
+In a one-to-one relationship, you do NOT use a third table as an association or join table.
+The first normalized form introduces the concept of enforcing primary keys and removing composite columns.
+The third normalized form supports the mantra "describe the key, the whole key, and nothing but the key".
+A foreign key does not need to point to the primary key of another table. It can actually point to the same table.
+ORDER BY sorts the results of a SELECT statement in SQL.
+Read Committed is the default transaction isolation level in Sql Server.
+The SQL keyword, LIKE is used with wildcards.
+SELECT DISTINCT is used to return only different values.
+SELECT COUNT(*) FROM Persons can return the number of records in the "Persons" table.
+SELECT SUM(s.rating) FROM sailors s, reserves r WHERE s.sid = r.sid AND r.bid = 103 query finds the total rating of the sailors who have reserved boat "103".
+SELECT DISTINCT s.sname FROM sailors s, reserves r1, reserves r2 WHERE s.sid = r1.sid AND r1.sid = r2.sid AND r1.bid <> r2.bid query finds the name of the sailors who have reserved at least two boats.
+SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen' selects all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen".
+SELECT STORE_ID, SUM(SALES_AMOUNT) FROM SALES GROUP BY STORE_ID; statement lets you find the sales amount for each store.
+Insert, Update, Delete are the different events in Triggers.
+2345 is the result of SELECT SUBSTR('123456789', INSTR('abcabcabc','b'), 4) FROM EMP;.
+SELECT * FROM Table1 WHERE Column1 >= 10 statements has correct syntax.
+You will need to call the Open() method prior to calling the ExecuteReader() method with SqlDataReader.
+The ExecuteReader() method of the Command object returns a DataReader object.
+ExecuteNonQuery() method can be used in order to run an insert statement using SqlCommand object.
+You would store the records that are returned from the SqlDataAdapter in a DataSet.
+Connection String contains the location and is used by a data source to connect to a specific database.
+DBContext is used by Entity Framework to query a database.
+Data Access Layer contains ADO.NET SqlDataAdapter or Entity Framework.
+ORM stands for Object Relational Mapper.
+You need an existing data source prior to using the Database First workflow.
+You can install Entity Framework through the NuGet Package Manager.
+DbContext is used in order to query from your database with LINQ.
+Idisposable is the statement used to call the Dispose() method of objects that implement this interface.
+ToList() is the method called in order to store data from the DbContext in memory.
+EntityState.Modified is the property used if you wish to edit a record in the database.
+Entity Framework is part of the ADO.NET Framework.
+.SaveChanges() is the method used in order to persist changes to the database.
+By default, in a Git repository, origin refers to the remote repository that the local repository was cloned from.
+Sometimes Git automatically resolve merge conflicts.
+Remote-tracking branches are updated using git fetch or git pull.

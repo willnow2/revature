@@ -1,0 +1,49 @@
+Debug Mode is the Visual Studio feature you will use to compile and run your program.
+The Error List within Visual Studio will show both syntax and compiler errors.
+A using block in C# used for to dispose unmanaged resources.
+C# a strongly typed language, which means each type of data is predefined as part of the programming language.
+In C#, one class can NOT inherit from multiple base classes.
+== (double equals) is the correct operator to compare two variables.
+Real is NOT a valid data type.
+The first index number in an array starts with 0 and the highest index number of an array of size n will be n - 1.
+A class object and a member of that class are connected by the dot operator.
+Garbage collection is the process of de-allocating memory automatically.
+A class may contain any number of variables and methods.
+An If-Else statement can NOT be used for handling thrown Exceptions.
+** is NOT an Arithmetic operator in C#.NET.
+Static functions can access only static data, static functions cannot call instance functions, instance functions can call static functions and access static data.
+The Inheritance mechanism uses the existing functionality of base class, overrrides the existing functionality of base class, implements new functionality in the derived class.
+A long is an 8-byte Integer.
+You can access a private field that is a member of a class with a public property to get and set the private field.
+The purpose of the protected access modifier is to hide access to the field from outside the class except a derived class.
+*=, +=, =, /= are assignment operators.
+In a Switch statement, if the value of the expression is not represented by a case, the default case will execute if provided in the switch statement.
+\ (backslash) is used to start an escape sequence in a string.
+Array is NOT a value type.
+foreach (int x in arr) { Console.WriteLine(x); } prints the elements of an integer array called arr.
+Given a class Robot, Robot droid = new Robot() is the correct way to instantiate an object.
+Within a class definition, private is the default access modifier for a class member without one.
+No value is returned by the following method signature, protected void MyMethod();
+A default constructor has 0 parameters.
+public Robot(), public Robot(int speed), public Robot(int speed, string type) are all correct signatures for a constructor for a Robot class.
+Given an ArrayList arList, arList.Count is how you get the number of elements in arList.
+A value can be repeated in a Dictionary collection any number of times.
+List<int> numbers = new List<int>() is the correct way to declare and instantiate a List collection.
+Of the collections, Array is NOT dynamic, while List, Dictionary, and ArrayList are.
+Provided a List with 10 names, names[4] is the correct way to get the name at 5th position in the List.
+Exception is the base exception class that can catch all types of exceptions.
+using is the keyword used to add a base class library or namespace to a project to become accessible.
+Abstract is the keyword used to make a class definition nonconcrete.
+Sealed is the keyword used to prevent a class from being inherited.
+Of the following components, namespace can NOT be inside a class definition, but method, field, and property can be.
+++ is the operator used to increment a number by 1.
+The modulus '%' returns the remainder of two int values when divided.
+You can NOT use access modifiers in an interface.
+Downcasting is NOT implicit.
+Assemblies are packages containing MSIL instructions and metadata to allow various components and tools to function together within the CLR at runtime.
+Breakpoint is what you use as a flag or marker indicating a place to pause current execution of a program.
+Every class contains a default constructor.
+Base is the keyword used to call a method from the Parent class.
+Interfaces are what is used in order to mimic multiple inheritance.
+You can have more than one constructor, but you can't have none.
+Properties are used to store private backing fields.

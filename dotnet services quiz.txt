@@ -1,0 +1,59 @@
+What is the <portType> tag used for in the WSDL? describes what operations can be performed and what messages are involved at an endpoint
+What parts of a SOAP message are required? Envelope, Body
+What are benefits of SOAP over REST? SOAP services are accompanied by a clearly outlines the service, SOAP services are not bound to a specific protocol
+What does WSDL stand for? Web Service Description Language
+What not true about service-oriented architecture (SOA)? None of the above
+What is a WSDL? Used to specify the exact message format, Internet protocol, and address that a client must use to communicate with a particular Web Service
+True or False. SOAP can transport messages over HTTP, SMTP, and FTP. REST can also do the same. FALSE
+In what protocol are SOAP messages bound? Any of the above
+In what language is the SOAP message written? XML
+Why are Web Services needed? Provides interoperability between platforms, Promotes code reusability, Allows for distributed business applications
+The envelope portion of the SOAP message: Is the root of every SOAP message, Is a mandatory part of SOAP message, Must contain exactly one Body element.
+What are Web Services? Software that makes itself available over the Internet and uses a standardized messaging system
+How are exceptions handled in SOAP? SOAP Fault is sent in SOAP message when exception is thrown, and includes fault code, reason, etc.
+SOAP supports JSON to structure and send messages. FALSE 
+SOAP messages contain _________; and REST messages contain ___________. XML, XML or JSON
+What transport protocol is used in REST? HTTP
+What language is used to represent a resource? Plain Text XML JSON
+What is a resource in REST? Any content accessible through the Web Service
+Which is not a commonly used HTTP method in REST? TRACE
+Which is not one of the core components of an HTTP request? Status code
+Which is not one of the core components of an HTTP response? URI
+The _____ HTTP status code shows success in creating something. 201
+How are exceptions handled in REST? A web service should use HTTP error codes like 403 to show access forbidden using the Response object
+The purpose of a _____ is to locate a resource on the server hosting the REST web service. Uniform resource identifier (URI)
+The _____ HTTP status code shows not found when a resource is unavailable. 404
+The _____ HTTP status code shows internal server error. 500
+The _____ HTTP status code shows forbidden access to a resource. 403
+The _____ HTTP status code shows a bad request. 400
+Which HTTP method can be used for creating or inserting new data onto a server? POST
+Which character indicates the beginning of a query param in a URL? ?
+What are the different types of web services? Soap Rest
+Which annotation exposes fields or variables of a data type via a WCF service? DataMember
+Which annotation exposes methods via the WCF service? OperationContract
+Web API functionality are associated with which of the following implementation? HTTP verbs
+Web API exposes functionality via a WSDL contract? FALSE 
+HTTP uses a connected architecture FALSE 
+HTTP is stateless TRUE 
+Which HTTP Verb is used in order to send data to the server? POST 
+Which HTTP Verb is used in order to edit data that is currently on the server? PUT 
+Which HTTP Verb is used in order to remove data that is currently on the server? DELETE 
+What do you use in order to send information or other data along with the request that is needed by the server? Request Headers 
+Which Request Header is used in order to spcify what type of data is expected with the response? Accept Header
+Which request header is used when you send values from a form so that the server knows what type of data to expect with the request? Content-type Header
+In a HTTP Service, where is the data such as JSON or XML stored in a HTTP Response? Body 
+Web API uses Controller and Action concepts from ASP.NET's MVC Framework TRUE 
+Serializing is not included with ASP.NET Web API. FALSE 
+ASP.NET Web API will automatically bind your JSON or XML files to regular C# classes. TRUE 
+You can use Scaffolded Controllers which will create method signatures for the 4 verbs available for Web API TRUE 
+You can use Scaffolded Controllers with an Entity Framework entity. TRUE 
+HttpClient is part of what namespace? System.Net.Http 
+How can I stop the x variable from being reassigned in JavaScript? const x = 5;
+!== will perform type coercion. FALSE 
+JavaScript code is compiled before being delivered to the browser (or other platform). FALSE 
+Null is not a data type of JavaScript FALSE
+The Number datatype represents both integer and decimal values TRUE 
+What is the result of this comparison 2 == '2' TRUE 
+You can retrieve an object's properties using either the dot-notation or the array-notation. TRUE 
+The following JavaScript demonstrates creating/defining a function named foo: function foo() { console.log('foo'); } TRUE 
+What is not true about let, var, and const? let can be redeclared in the same scope

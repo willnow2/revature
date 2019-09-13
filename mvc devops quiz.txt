@@ -1,0 +1,44 @@
+DevOps is Development Culture, Improves team communication, Brings together the Development and Operations team, and Guarantees proper continuous integration, delivery and deployment.
+Continuous Integration is keeping up with the latest build of the application.
+Git is a version control tool.
+In Git, after making changes in a branch, you can commit before you push.
+You can create a new branch in Git with the command, git checkout -b <newBranch>.
+A protected branch in Git is a branch that cannot be accidentally deleted, a branch that you cannot push into unless you are an admin or owner, a branch in which changes can only go in with a pull request approved by an admin.
+Building is the process of compiling, testing and packaging source code.
+SonarQube is an open source platform that performs static analysis of code to determine code quality.
+Development Operations is the idea that project development and project operations should be combined, automated, and monitored, allowing for shorter development periods, increased deployments, and higher project stability..
+Continuous Deployment is when a merge to the remote repository results in your code being deployed to production.
+Nuget provides automatic dependency resolution.
+Services that SonarQube provides are detect bugs, security holes, and unreliable or unmaintainable code. Note: SonarQube does static analysis - it does not run the code, and the code must already compile successfully for analysis to run.
+Remote-tracking branches are updated using git fetch or git pull.
+By default, in a Git repository, origin refers to the remote repository that the local repository was cloned from.
+Advantages of DevOps includes faster code delivery, and automated testing.
+A strongly typed view in ASP.NET MVC is a view used to render a specific type of model.
+The components of MVC are model, view, and controller.
+MVC Lifecycle can NOT be run without Routes.
+The View manages presenting information to the user.
+The Model is a represention of the state of data in the program.
+The Controller manages communication between the model and the view.
+MVC is used to separate business code from presentation code.
+It is possible to add more HTML Helper methods by using extension methods.
+TempData is a dictionary object used to pass non model data between controller and view or between views but only for the current and subsequent requests only.
+ViewBag is a wrapper used to access non model dynamic data properties between controller and view or between views.
+ViewData is a dictionary object used to pass non model data between controller and view or between views.
+System.ComponentModel.DataAnnotations is the namespace that must be included to implement server side validation for models.
+A Partial View can NOT have a @Layout page reference.
+A Partial View can be passed data from other Views.
+link, meta, title, style are tags that should go in the HEAD element.
+div, header, span, strong are tags that should go within the Body element.
+An HTML attribute is composed of a key-value pair as part of a tag.
+<input type="text"> is the correct HTML for making a text input field.
+<style> is the HTML element that allows for internal CSS to be added to the HTML page.
+A child element an element directly nested inside another element.
+<ol> creates a numbered list.
+The <p> tag starts a paragraph.
+The CSS Box Model is margin >> border >> padding >> content.
+A CSS selector is a tool to target HTML elements and attributes.
+Using the * operator, all siblings will be targeted.
+Responsive Web Design is the ability to render your webpage at native viewport resolution.
+The ID selector in CSS uses a # symbol.
+Correct CSS syntax, body {color: black}.
+More than one stylesheet can be used in an HTML page.
